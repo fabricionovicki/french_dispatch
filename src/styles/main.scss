@@ -124,6 +124,10 @@ body{
     }
 }
 
+.hero__content__combos__combo__button, .plans__list__item__button {
+    color: black;
+}
+
 .image-text-section {
     padding: 5.6vw;
     display: grid;
@@ -141,36 +145,13 @@ body{
 
     &__text_container {
         padding: 0 2vw;
+        text-align: justify;
 
-        h2 {
-            margin-bottom: 24px;
-        }
-    }
-
-    &--image-full-width {
-        display: block;
-        position: relative;
-
-        img {
-            width: 100%;
-        }
-
-        &__text_container {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            height: 100%;
-            width: calc(50% - 5.6vw);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            @media (max-width: 768px){
-                position: relative;
-                left: 0;
-                width: 100%;
-            }
-    
+        &__title {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 48px;
         }
     }
 }

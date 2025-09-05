@@ -4,6 +4,13 @@
     padding: 2vw 5.6vw;
     min-height: 50vw;
 
+    &__title{
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 12px 12px 48px 12px;
+    }
+
     &__list {
         margin-top: 44px;
         display: none;
@@ -19,6 +26,8 @@
         }
 
         &__item {
+
+            text-align: justify;
 
             img {
                 max-width: 100%;
